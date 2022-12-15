@@ -1,12 +1,12 @@
 "use strict";
 
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 var _app = _interopRequireDefault(require("../app.js"));
 var _message = _interopRequireDefault(require("./message.js"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 var caseEntorno = function caseEntorno() {
   switch (process.env.NODE_ENV) {
     case "production":

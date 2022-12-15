@@ -1,7 +1,7 @@
 "use strict";
 
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 var _colors = _interopRequireDefault(require("colors"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 var message = function message(mensaje, tipo) {
   switch (tipo) {
     case 'danger':
